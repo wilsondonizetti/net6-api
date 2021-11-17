@@ -1,0 +1,4 @@
+GET http://localhost:5047/calc?x=2&y=3&op=0
+
+
+GET http://localhost:5047/weatherforecast
