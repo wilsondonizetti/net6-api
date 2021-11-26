@@ -6,9 +6,9 @@ pipeline {
             args  '--entrypoint="" -u root -v /opt/jenkins/.gcp:/root/.gcp'
         }
     }
-    options {
-        ansiColor('xterm')
-    }
+    //options {
+    //    ansiColor('xterm')
+    //}
     parameters {
         choice(
             choices: ['preview' , 'apply' , 'show', 'preview-destroy' , 'destroy'],
